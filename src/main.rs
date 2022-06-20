@@ -38,7 +38,7 @@ fn main() {
             }
         }
 
-        // generate a random ineger, 1 or 2
+        // generate a random integer, 1 or 2
         let cpu_result: i32 = rand::thread_rng().gen_range(1..2);
         let mut cpu_choice = String::new();
 
